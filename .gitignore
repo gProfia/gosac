@@ -1,0 +1,8 @@
+share/
+pyvenv.cfg
+lib64
+lib/
+lib64/
+.install.sh.swp
+include/
+bin/
