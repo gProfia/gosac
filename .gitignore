@@ -6,3 +6,5 @@ lib64/
 .install.sh.swp
 include/
 bin/
+test_data/
+.gosac.py.swp
