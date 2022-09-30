@@ -57,6 +57,12 @@ def main():
     if not ae:
         ai = True
 
+    authors = []
+    with open(author_file) as file:
+        authors = [ line.strip() for line in file ]
+    if len(authors) == 0:
+        print("empty err: empty file provided")
+        sys.exit(5)
 
 
 main()
