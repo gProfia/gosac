@@ -8,3 +8,4 @@ include/
 bin/
 test_data/
 .gosac.py.swp
+geckodriver*
