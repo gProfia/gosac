@@ -16,5 +16,9 @@ source bin/activate
 #install project dependencies
 python -m pip install selenium
 python -m pip install beautifulsoup4
+python -m pip install webdriver-manager
+python -m pip install pandas
 
+deactivate
 
+echo -e  "function gosac(){\n\tsource $VENV_PATH/bin/activate\n\tpython3 $VENV_PATH/gosac.py \"\$@\"\n\tdeactivate\n}"  >> ~/.bashrc
